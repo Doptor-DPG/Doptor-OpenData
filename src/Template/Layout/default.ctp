@@ -103,7 +103,7 @@ Product Name: Doptor Open Data DPG
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="/" class="logo">
+                    <a href="<?= $this->request->webroot ?>" class="logo">
                         <img src="<?= $this->request->webroot ?>img/doptor.png" alt="" style="width: 65% !important;">
                     </a>
                     <!-- ***** Logo End ***** -->
@@ -114,9 +114,10 @@ Product Name: Doptor Open Data DPG
                         <li><a href="<?= $this->Url->build(['controller' => 'Home', 'action' => 'termsofservice']) ?>">Terms
                                 of Service</a></li>
                         <li>
-                            <div class="border-first-button"><a
-                                        href="<?= $this->Url->build(['controller' => 'Documentation', 'action' => 'index']) ?>">Documentation
-                                    <i class="fa fa-external-link"></i></a></div>
+                            <div class="border-first-button">
+                                <a href="<?= $this->Url->build(['controller' => 'Documentation', 'action' => 'index']) ?>" target="_blank">
+                                OpenAPI UI
+                                <i class="fa fa-external-link"></i></a></div>
                         </li>
                     </ul>
                     <a class='menu-trigger'>
@@ -133,8 +134,41 @@ Product Name: Doptor Open Data DPG
     <?= $this->fetch('content') ?>
 </div>
 
-<footer>
-    <div class="container">
+<footer class="shadow-sm" style="border-top: solid 1px #CCC;">
+    <div class="container pt-3 pb-3">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-4 justify-content-center-column">
+                        Planning and
+                        Implementation
+                    </div>
+                    <div class="col-8 justify-content-center-column">
+                        <a href="https://a2i.gov.bd/" target="_blank" title="a2i">
+                            <img src="<?= $this->request->webroot ?>img/a2i-logo-set.png" alt="" style="max-height: 60px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 justify-content-center-column text-center">
+                    Copyright &copy; All Rights Reserved <br>
+                    Government of the People's Republic of Bangladesh
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-4 justify-content-center-column">
+                        Technical Assistance
+                    </div>
+                    <div class="col-8 justify-content-center-column">
+                        <a href="https://tappware.com" target="_blank" title="Tappware">
+                            <img src="<?= $this->request->webroot ?>img/tappware.png" alt="" style="max-height: 60px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <p>Copyright © 2023 . All Rights Reserved. | <span> <a
@@ -142,7 +176,7 @@ Product Name: Doptor Open Data DPG
                     <br>Developed By, <a href="https://tappware.com" target="_blank" title="Tappware">Tappware</a></p>
             </div>
         </div>
-    </div>
+    </div> -->
 </footer>
 
 

@@ -53,7 +53,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-            <div class="accordion accordion-flush wow fadeInRight" id="accordionFlushExample">
+            <div class="accordion accordion-flush wow fadeInUp" id="accordionFlushExample">
                 <div class="accordion-item">
                     <h6 class="accordion-header" id="qh1">
                     <button class="accordion-button collapsed bg-gradient-lighter border rounded-3 shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#qc1" aria-expanded="false" aria-controls="qc1">
@@ -85,7 +85,7 @@
             <br>
 
 
-            <div class="accordion accordion-flush wow fadeInRight" id="accordionFlushExample">
+            <div class="accordion accordion-flush wow fadeInUp" id="accordionFlushExample">
                 <div class="accordion-item">
                     <h6 class="accordion-header" id="qh2">
                     <button class="accordion-button collapsed bg-gradient-lighter border rounded-3 shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#qc2" aria-expanded="false" aria-controls="qc2">
@@ -110,7 +110,7 @@
             </div>
             <br>
 
-            <div class="accordion accordion-flush wow fadeInRight" id="accordionFlushExample">
+            <div class="accordion accordion-flush wow fadeInUp" id="accordionFlushExample">
                 <div class="accordion-item">
                     <h6 class="accordion-header" id="qh3">
                     <button class="accordion-button collapsed bg-gradient-lighter border rounded-3 shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#qc3" aria-expanded="false" aria-controls="qc3">
@@ -132,7 +132,7 @@
             <br>
 
 
-            <div class="accordion accordion-flush wow fadeInRight" id="accordionFlushExample">
+            <div class="accordion accordion-flush wow fadeInUp" id="accordionFlushExample">
                 <div class="accordion-item">
                     <h6 class="accordion-header" id="qh4">
                     <button class="accordion-button collapsed bg-gradient-lighter border rounded-3 shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#qc4" aria-expanded="false" aria-controls="qc4">
@@ -154,7 +154,7 @@
             <br>
 
 
-            <div class="accordion accordion-flush wow fadeInRight" id="accordionFlushExample">
+            <div class="accordion accordion-flush wow fadeInUp" id="accordionFlushExample">
                 <div class="accordion-item">
                     <h6 class="accordion-header" id="qh5">
                     <button class="accordion-button collapsed bg-gradient-lighter border rounded-3 shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#qc5" aria-expanded="false" aria-controls="qc5">
@@ -176,7 +176,7 @@
 
 
             
-            <div class="accordion accordion-flush wow fadeInRight" id="accordionFlushExample">
+            <div class="accordion accordion-flush wow fadeInUp" id="accordionFlushExample">
                 <div class="accordion-item">
                     <h6 class="accordion-header" id="qh6">
                     <button class="accordion-button collapsed bg-gradient-lighter border rounded-3 shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#qc6" aria-expanded="false" aria-controls="qc6">

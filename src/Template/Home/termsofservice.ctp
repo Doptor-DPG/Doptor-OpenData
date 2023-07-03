@@ -54,7 +54,7 @@
     <div id="about" class="about section">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 align-self-center  wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="col-md-12 align-self-center  wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                     <div class="about-right-content">
                         <div class="section-heading">
                         <h6>Harassment Terms and Policy</h6>
@@ -74,7 +74,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-12 align-self-center  wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="col-md-12 align-self-center  wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                     <div class="about-right-content">
                         <div class="section-heading">
                         <h6>Media File Copyright Policy</h6>
@@ -95,7 +95,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-12 align-self-center  wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="col-md-12 align-self-center  wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                     <div class="about-right-content">
                         <div class="section-heading">
                         <h6>Account Security</h6>
@@ -117,7 +117,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-12 align-self-center  wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="col-md-12 align-self-center  wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                     <div class="about-right-content">
                         <div class="section-heading">
                         <h6>Violation Policy of Terms and Conditions</h6>
@@ -137,7 +137,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-12 align-self-center  wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="col-md-12 align-self-center  wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                     <div class="about-right-content">
                         <div class="section-heading">
                         <h6>Compliance with National and International Laws</h6>
@@ -160,7 +160,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-12 align-self-center  wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="col-md-12 align-self-center  wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                     <div class="about-right-content">
                         <div class="section-heading">
                         <h6>Other Terms and Conditions</h6>

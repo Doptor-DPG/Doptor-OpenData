@@ -64,4 +64,40 @@ class HomeController extends AppController
     {
         return;
     }
+
+
+    public function callApi()
+    {
+        if($this->request->is('POST'))
+        {
+            $rd= $this->request->getData();
+            $url = $rd['callurl'];
+
+            $data = $rd['params'];
+
+            $jsonData = json_encode($data);
+
+            $curl = curl_init();
+            curl_setopt($curl, CURLOPT_URL, $url);
+            curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($curl, CURLOPT_POST, true);
+            curl_setopt($curl, CURLOPT_POSTFIELDS, $jsonData);
+            curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+            curl_setopt($curl, CURLOPT_HTTPHEADER, array(
+                'Content-Type: application/json'
+            ));
+
+            $response = curl_exec($curl);
+
+            if ($response === false) {
+                $error = curl_error($curl);
+                echo json_encode("cURL Error: " . $error, true);
+            } else {
+                echo json_encode($response, true);
+            }
+
+            curl_close($curl);
+            exit();
+        }
+    }
 }
