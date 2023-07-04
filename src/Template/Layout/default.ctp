@@ -115,7 +115,7 @@ Product Name: Doptor Open Data DPG
                                 of Service</a></li>
                         <li>
                             <div class="border-first-button">
-                                <a href="<?= $this->Url->build(['controller' => 'Documentation', 'action' => 'index']) ?>" target="_blank">
+                                <a href="<?= $this->Url->build(['controller' => 'Documentation', 'action' => 'index']) ?>">
                                 OpenAPI UI
                                 <i class="fa fa-external-link"></i></a></div>
                         </li>
