@@ -62,30 +62,32 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>name_bng</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>name_bng</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>bbs_code</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
+                                    <form action="" id="form1" enctype="multipart/form-data">
+                                        <tr>
+                                            <td>id</td>
+                                            <td><input type="text" name="id" class="form-control" placeholder="Enter id value"></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>name_eng</td>
+                                            <td><input type="text" name="name_eng" class="form-control" placeholder="Enter name_eng value"></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>name_bng</td>
+                                            <td><input type="text" name="name_bng" class="form-control" placeholder="Enter name_bng value"></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>bbs_code</td>
+                                            <td><input type="text" name="bbs_code" class="form-control" placeholder="Enter bbs_code value"></td>
+                                            <td>text</td>
+                                        </tr>
+                                    </form>
                                 </tbody>
                             </table>
                             
-                            <button type="button" class="custom-btn-primary" onclick="callApi('https://dpgdata.doptor.gov.bd/api/v1/geo/divisions', '1', {})"> Try it now!</button>
+                            <button type="button" class="custom-btn-primary" onclick="callApi('<?= APP_URL ?>api/v1/geo/divisions', '1')"> Try it now!</button>
 
                             <div id="response1" >
 
@@ -141,34 +143,36 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>name_eng</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>name_bng</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>bbs_code</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>division_eng</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
+                                    <form action="" id="form2" enctype="multipart/form-data">
+                                        <tr>
+                                            <td>name_eng</td>
+                                            <td><input type="text" name="name_eng" class="form-control" placeholder="Enter name_eng value"></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>name_bng</td>
+                                            <td><input type="text" name="name_bng" class="form-control" placeholder="Enter name_bng value"></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>bbs_code</td>
+                                            <td><input type="text" name="bbs_code" class="form-control" placeholder="Enter bbs_code value"></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>division_eng</td>
+                                            <td><input type="text" name="division_eng" class="form-control" placeholder="Enter division_eng value"></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>id</td>
+                                            <td><input type="text" name="id" class="form-control" placeholder="Enter id value"></td>
+                                            <td>text</td>
+                                        </tr>
+                                    </form>
                                 </tbody>
                             </table>
-                            <button type="button" class="custom-btn-primary" onclick="callApi('https://dpgdata.doptor.gov.bd/api/v1/geo/districts', '2', {})"> Try it now!</button>
+                            <button type="button" class="custom-btn-primary" onclick="callApi('<?= APP_URL ?>api/v1/geo/districts', '2')"> Try it now!</button>
                             <div id="response2" >
 
                             </div>
@@ -223,49 +227,51 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>name_eng</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>name_bng</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>bbs_code</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>division_id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>district_id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>page</td>
-                                    <td>1</td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>per_page</td>
-                                    <td>25</td>
-                                    <td>text</td>
-                                </tr>
+                                    <form action="" id="form3" enctype="multipart/form-data">
+                                        <tr>
+                                            <td>id</td>
+                                            <td><input type="text" name="id" class="form-control" placeholder="Enter id value"></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>name_eng</td>
+                                            <td><input type="text" name="name_eng" class="form-control" placeholder="Enter name_eng value"></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>name_bng</td>
+                                            <td><input type="text" name="name_bng" class="form-control" placeholder="Enter name_bng value"></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>bbs_code</td>
+                                            <td><input type="text" name="bbs_code" class="form-control" placeholder="Enter bbs_code value"></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>division_id</td>
+                                            <td><input type="text" name="division_id" class="form-control" placeholder="Enter division_id value"></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>district_id</td>
+                                            <td><input type="text" name="district_id" class="form-control" placeholder="Enter district_id value"></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>page</td>
+                                            <td><input type="text" name="page" class="form-control" placeholder="Enter page value" value="1"></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>per_page</td>
+                                            <td><input type="text" name="per_page" class="form-control" placeholder="Enter per_page value" value="25"></td>
+                                            <td>text</td>
+                                        </tr>
+                                    </form>
                                 </tbody>
                             </table>
-                            <button type="button" class="custom-btn-primary" onclick="callApi('https://dpgdata.doptor.gov.bd/api/v1/geo/upazillas', '3', {page:1, per_page:25})"> Try it now!</button>
+                            <button type="button" class="custom-btn-primary" onclick="callApi('<?= APP_URL ?>api/v1/geo/upazillas', '3')"> Try it now!</button>
                             <div id="response3">
 
                             </div>
@@ -321,49 +327,51 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>name_eng</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>name_bng</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>bbs_code</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>division_id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>upazila_id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>page</td>
-                                    <td>1</td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>per_page</td>
-                                    <td>50</td>
-                                    <td>text</td>
-                                </tr>
+                                    <form action="" id="form4" enctype="multipart/form-data">
+                                        <tr>
+                                            <td>id</td>
+                                            <td><input type="text" name="id" class="form-control" placeholder="Enter id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>name_eng</td>
+                                            <td><input type="text" name="name_eng" class="form-control" placeholder="Enter name_eng value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>name_bng</td>
+                                            <td><input type="text" name="name_bng" class="form-control" placeholder="Enter name_bng value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>bbs_code</td>
+                                            <td><input type="text" name="bbs_code" class="form-control" placeholder="Enter bbs_code value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>division_id</td>
+                                            <td><input type="text" name="division_id" class="form-control" placeholder="Enter division_id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>upazila_id</td>
+                                            <td><input type="text" name="upazila_id" class="form-control" placeholder="Enter upazila_id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>page</td>
+                                            <td><input type="text" name="page" class="form-control" placeholder="Enter page value" value="1"></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>per_page</td>
+                                            <td><input type="text" name="per_page" class="form-control" placeholder="Enter per_page value" value="50"></td>
+                                            <td>text</td>
+                                        </tr>
+                                    </form>
                                 </tbody>
                             </table>
-                            <button type="button" class="custom-btn-primary" onclick="callApi('https://dpgdata.doptor.gov.bd/api/v1/geo/unions', '4', {})"> Try it now!</button>
+                            <button type="button" class="custom-btn-primary" onclick="callApi('<?= APP_URL ?>api/v1/geo/unions', '4')"> Try it now!</button>
                             <div id="response4">
 
                             </div>
@@ -419,49 +427,51 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>name_eng</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>name_bng</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>bbs_code</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>division_id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>district_id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>page</td>
-                                    <td>1</td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>per_page</td>
-                                    <td>25</td>
-                                    <td>text</td>
-                                </tr>
+                                    <form action="" id="form5" enctype="multipart/form-data">
+                                        <tr>
+                                            <td>id</td>
+                                            <td><input type="text" name="id" class="form-control" placeholder="Enter id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>name_eng</td>
+                                            <td><input type="text" name="name_eng" class="form-control" placeholder="Enter name_eng value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>name_bng</td>
+                                            <td><input type="text" name="name_bng" class="form-control" placeholder="Enter name_bng value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>bbs_code</td>
+                                            <td><input type="text" name="bbs_code" class="form-control" placeholder="Enter bbs_code value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>division_id</td>
+                                            <td><input type="text" name="division_id" class="form-control" placeholder="Enter division_id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>district_id</td>
+                                            <td><input type="text" name="district_id" class="form-control" placeholder="Enter district_id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>page</td>
+                                            <td><input type="text" name="page" class="form-control" placeholder="Enter page value" value="1"></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>per_page</td>
+                                            <td><input type="text" name="per_page" class="form-control" placeholder="Enter per_page value" value="25"></td>
+                                            <td>text</td>
+                                        </tr>
+                                    </form>
                                 </tbody>
                             </table>
-                            <button type="button" class="custom-btn-primary" onclick="callApi('https://dpgdata.doptor.gov.bd/api/v1/geo/city-corporations', '5', {})"> Try it now!</button>
+                            <button type="button" class="custom-btn-primary" onclick="callApi('<?= APP_URL ?>api/v1/geo/city-corporations', '5')"> Try it now!</button>
                             <div id="response5">
 
                             </div>
@@ -516,54 +526,56 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>name_eng</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>name_bng</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>bbs_code</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>division_id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>district_id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>citycorporation_id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>page</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>per_page</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
+                                    <form action="" id="form6" enctype="multipart/form-data">
+                                        <tr>
+                                            <td>id</td>
+                                            <td><input type="text" name="id" class="form-control" placeholder="Enter id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>name_eng</td>
+                                            <td><input type="text" name="name_eng" class="form-control" placeholder="Enter name_eng value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>name_bng</td>
+                                            <td><input type="text" name="name_bng" class="form-control" placeholder="Enter name_bng value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>bbs_code</td>
+                                            <td><input type="text" name="bbs_code" class="form-control" placeholder="Enter bbs_code value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>division_id</td>
+                                            <td><input type="text" name="division_id" class="form-control" placeholder="Enter division_id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>district_id</td>
+                                            <td><input type="text" name="district_id" class="form-control" placeholder="Enter district_id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>citycorporation_id</td>
+                                            <td><input type="text" name="citycorporation_id" class="form-control" placeholder="Enter citycorporation_id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>page</td>
+                                            <td><input type="text" name="page" class="form-control" placeholder="Enter page value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>per_page</td>
+                                            <td><input type="text" name="per_page" class="form-control" placeholder="Enter per_page value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                    </form>
                                 </tbody>
                             </table>
-                            <button type="button" class="custom-btn-primary" onclick="callApi('https://dpgdata.doptor.gov.bd/api/v1/geo/city-corporation-wards', '6', {})"> Try it now!</button>
+                            <button type="button" class="custom-btn-primary" onclick="callApi('<?= APP_URL ?>api/v1/geo/city-corporation-wards', '6')"> Try it now!</button>
                             <div id="response6">
 
                             </div>
@@ -619,54 +631,56 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>name_bng</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>name_eng</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>bbs_code</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>division_id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>district_id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>upazila_id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>page</td>
-                                    <td>1</td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>per_page</td>
-                                    <td>50</td>
-                                    <td>text</td>
-                                </tr>
+                                    <form action="" id="form7" enctype="multipart/form-data">
+                                        <tr>
+                                            <td>id</td>
+                                            <td><input type="text" name="id" class="form-control" placeholder="Enter id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>name_bng</td>
+                                            <td><input type="text" name="name_bng" class="form-control" placeholder="Enter name_bng value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>name_eng</td>
+                                            <td><input type="text" name="name_eng" class="form-control" placeholder="Enter name_eng value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>bbs_code</td>
+                                            <td><input type="text" name="bbs_code" class="form-control" placeholder="Enter bbs_code value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>division_id</td>
+                                            <td><input type="text" name="division_id" class="form-control" placeholder="Enter division_id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>district_id</td>
+                                            <td><input type="text" name="district_id" class="form-control" placeholder="Enter district_id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>upazila_id</td>
+                                            <td><input type="text" name="upazila_id" class="form-control" placeholder="Enter upazila_id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>page</td>
+                                            <td><input type="text" name="page" class="form-control" placeholder="Enter page value" value="1"></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>per_page</td>
+                                            <td><input type="text" name="per_page" class="form-control" placeholder="Enter per_page value" value="50"></td>
+                                            <td>text</td>
+                                        </tr>
+                                    </form>
                                 </tbody>
                             </table>
-                            <button type="button" class="custom-btn-primary" onclick="callApi('https://dpgdata.doptor.gov.bd/api/v1/geo/municipalities', '7', {})"> Try it now!</button>
+                            <button type="button" class="custom-btn-primary" onclick="callApi('<?= APP_URL ?>api/v1/geo/municipalities', '7')"> Try it now!</button>
                             <div id="response7">
 
                             </div>
@@ -722,59 +736,61 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>name_bng</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>name_eng</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>bbs_code</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>division_id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>district_id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>upazila_id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>municipality_id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>page</td>
-                                    <td>1</td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>per_page</td>
-                                    <td>50</td>
-                                    <td>text</td>
-                                </tr>
+                                    <form action="" id="form8" enctype="multipart/form-data">
+                                        <tr>
+                                            <td>id</td>
+                                            <td><input type="text" name="id" class="form-control" placeholder="Enter id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>name_bng</td>
+                                            <td><input type="text" name="name_bng" class="form-control" placeholder="Enter name_bng value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>name_eng</td>
+                                            <td><input type="text" name="name_eng" class="form-control" placeholder="Enter name_eng value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>bbs_code</td>
+                                            <td><input type="text" name="bbs_code" class="form-control" placeholder="Enter bbs_code value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>division_id</td>
+                                            <td><input type="text" name="division_id" class="form-control" placeholder="Enter division_id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>district_id</td>
+                                            <td><input type="text" name="district_id" class="form-control" placeholder="Enter district_id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>upazila_id</td>
+                                            <td><input type="text" name="upazila_id" class="form-control" placeholder="Enter upazila_id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>municipality_id</td>
+                                            <td><input type="text" name="municipality_id" class="form-control" placeholder="Enter municipality_id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>page</td>
+                                            <td><input type="text" name="page" class="form-control" placeholder="Enter page value" value="1"></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>per_page</td>
+                                            <td><input type="text" name="per_page" class="form-control" placeholder="Enter per_page value" value="50"></td>
+                                            <td>text</td>
+                                        </tr>
+                                    </form>
                                 </tbody>
                             </table>
-                            <button type="button" class="custom-btn-primary" onclick="callApi('https://dpgdata.doptor.gov.bd/api/v1/geo/municipality-wards', '8', {})"> Try it now!</button>
+                            <button type="button" class="custom-btn-primary" onclick="callApi('<?= APP_URL ?>api/v1/geo/municipality-wards', '8')"> Try it now!</button>
                             <div id="response8">
 
                             </div>
@@ -830,49 +846,51 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>name_bng</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>name_eng</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>bbs_code</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>division_id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>district_id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>page</td>
-                                    <td>1</td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>per_page</td>
-                                    <td>50</td>
-                                    <td>text</td>
-                                </tr>
+                                    <form action="" id="form9" enctype="multipart/form-data">
+                                        <tr>
+                                            <td>id</td>
+                                            <td><input type="text" name="id" class="form-control" placeholder="Enter id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>name_bng</td>
+                                            <td><input type="text" name="name_bng" class="form-control" placeholder="Enter name_bng value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>name_eng</td>
+                                            <td><input type="text" name="name_eng" class="form-control" placeholder="Enter name_eng value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>bbs_code</td>
+                                            <td><input type="text" name="bbs_code" class="form-control" placeholder="Enter bbs_code value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>division_id</td>
+                                            <td><input type="text" name="division_id" class="form-control" placeholder="Enter division_id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>district_id</td>
+                                            <td><input type="text" name="district_id" class="form-control" placeholder="Enter district_id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>page</td>
+                                            <td><input type="text" name="page" class="form-control" placeholder="Enter page value" value="1"></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>per_page</td>
+                                            <td><input type="text" name="per_page" class="form-control" placeholder="Enter per_page value" value="50"></td>
+                                            <td>text</td>
+                                        </tr>
+                                    </form>
                                 </tbody>
                             </table>
-                            <button type="button" class="custom-btn-primary" onclick="callApi('https://dpgdata.doptor.gov.bd/api/v1/geo/thanas', '9', {})"> Try it now!</button>
+                            <button type="button" class="custom-btn-primary" onclick="callApi('<?= APP_URL ?>api/v1/geo/thanas', '9')"> Try it now!</button>
                             <div id="response9">
 
                             </div>
@@ -928,54 +946,56 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>name_bng</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>name_eng</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>bbs_code</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>division_id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>district_id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>upazila_id</td>
-                                    <td></td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>page</td>
-                                    <td>1</td>
-                                    <td>text</td>
-                                </tr>
-                                <tr>
-                                    <td>per_page</td>
-                                    <td>50</td>
-                                    <td>text</td>
-                                </tr>
+                                    <form action="" id="form10" enctype="multipart/form-data">
+                                        <tr>
+                                            <td>id</td>
+                                            <td><input type="text" name="id" class="form-control" placeholder="Enter id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>name_bng</td>
+                                            <td><input type="text" name="name_bng" class="form-control" placeholder="Enter name_bng value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>name_eng</td>
+                                            <td><input type="text" name="name_eng" class="form-control" placeholder="Enter name_eng value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>bbs_code</td>
+                                            <td><input type="text" name="bbs_code" class="form-control" placeholder="Enter bbs_code value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>division_id</td>
+                                            <td><input type="text" name="division_id" class="form-control" placeholder="Enter division_id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>district_id</td>
+                                            <td><input type="text" name="district_id" class="form-control" placeholder="Enter district_id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>upazila_id</td>
+                                            <td><input type="text" name="upazila_id" class="form-control" placeholder="Enter upazila_id value" value=""></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>page</td>
+                                            <td><input type="text" name="page" class="form-control" placeholder="Enter page value" value="1"></td>
+                                            <td>text</td>
+                                        </tr>
+                                        <tr>
+                                            <td>per_page</td>
+                                            <td><input type="text" name="per_page" class="form-control" placeholder="Enter per_page value" value="50"></td>
+                                            <td>text</td>
+                                        </tr>
+                                    </form>
                                 </tbody>
                             </table>
-                            <button type="button" class="custom-btn-primary" onclick="callApi('https://dpgdata.doptor.gov.bd/api/v1/geo/post-offices', '10', {})"> Try it now!</button>
+                            <button type="button" class="custom-btn-primary" onclick="callApi('<?= APP_URL ?>api/v1/geo/post-offices', '10')"> Try it now!</button>
                             <div id="response10">
 
                             </div>

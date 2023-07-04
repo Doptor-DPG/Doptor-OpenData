@@ -4,11 +4,9 @@ This guide provides step-by-step instructions for installing the PHP application
 
 ## Authors
 
-- [@Hasan Sayeed](https://github.com/jbhasan)
-- [@Mahmud](https://www.linkedin.com/in/mahmud-s-raju)
+- [@Mahmud S.](https://www.linkedin.com/in/mahmud-s-raju)
+- [@Abdullah M. Tahir]()
 - [@Tappware Solutions Limited]()
-- [@Sky Digital (BD) Limited]()
-
 
 ## Prerequisites
 
@@ -34,6 +32,12 @@ Before proceeding with the installation, make sure you have the following softwa
    ```shell
    cp app.example.php app.php
    ```
+4. Edit `oisf_dynamic_conf.php` and set the domain of the application in `APP_URL` like below:
+
+   ```shell
+   define('APP_URL', 'https://dpgdata.doptor.gov.bd/');
+   ```
+
 4. Go back to the root directory of the application:
 
    ```shell

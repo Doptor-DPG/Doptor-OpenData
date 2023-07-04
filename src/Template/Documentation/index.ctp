@@ -1,6 +1,6 @@
 
 
-    <div class="container mb-5">
+<div class="container mb-5">
       <div class="row">
         <div class="col-md-12">
         <nav aria-label="breadcrumb">
@@ -20,7 +20,7 @@
             <div class="nav nav-tabs" id="nav-tab" role="tablist">
               <button class="nav-link active" id="nav-geo-location-tab" data-bs-toggle="tab" data-bs-target="#nav-geo-location" type="button" role="tab" aria-controls="nav-geo-location" aria-selected="true"><h3>Geo Location</h3></button>
               <button class="nav-link" id="nav-office-structure-tab" data-bs-toggle="tab" data-bs-target="#nav-office-structure" type="button" role="tab" aria-controls="nav-office-structure" aria-selected="false"><h3>Office Structure</h3></button>
-              <button class="nav-link" id="nav-faq-tab" data-bs-toggle="tab" data-bs-target="#nav-faq" type="button" role="tab" aria-controls="nav-faq" aria-selected="false"><h3><a class="text-reset" href="<?= $this->Url->build(['controller' => 'Home', 'action' => 'faq']) ?>">Documentation</a></h3></button>
+              <button class="nav-link" id="nav-faq-tab" data-bs-toggle="tab" data-bs-target="#nav-faq" type="button" role="tab" aria-controls="nav-faq" aria-selected="false"><h3>Documentation</h3></button>
             </div>
           </nav>
           <div class="tab-content" id="nav-tabContent">
@@ -29,6 +29,9 @@
             </div>
             <div class="tab-pane fade" id="nav-office-structure" role="tabpanel" aria-labelledby="nav-office-structure-tab" tabindex="0">
               <?= $this->element('office') ?>
+            </div>
+            <div class="tab-pane fade" id="nav-faq" role="tabpanel" aria-labelledby="nav-faq-tab" tabindex="0">
+              <?= $this->element('faqtab') ?>
             </div>
           </div>
         </div>
@@ -40,16 +43,22 @@
 
 
   <script>
-    function callApi(apiurl, id, paramData={})
+    function callApi(apiurl, id)
     {
+        console.log(apiurl);
         $("#response"+id).empty();
         var html= '';
         html += '<div class="d-flex justify-content-center mt-3"><img src="'+<?= json_encode($this->request->webroot,true) ?>+'img/loading.gif" style="width:50px"></div>';
         $("#response"+id).append(html);
         var data_parse_url= <?= json_encode($this->Url->build(['controller'=>'Home', 'action'=>'callApi']),true) ?>;
+        var formData = $('#form'+id).serializeArray();
+        var dataObject = {};
+        $(formData).each(function(index, field){
+          dataObject[field.name] = field.value;
+        });
         var requestData= {
             callurl: apiurl,
-            params: paramData
+            params: dataObject
         }
         $.ajax({
             url: data_parse_url,

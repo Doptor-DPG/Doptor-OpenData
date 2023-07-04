@@ -61,21 +61,23 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>ministry_id</td>
-                                    <td></td>
-                                    <td>int</td>
-                                    <td>Optional Parameter.</td>
-                                </tr>
-                                <tr>
-                                    <td>search</td>
-                                    <td></td>
-                                    <td>text</td>
-                                    <td>Optional Parameter.</td>
-                                </tr>
+                                    <form action="" id="form11" enctype="multipart/form-data">
+                                        <tr>
+                                            <td>ministry_id</td>
+                                            <td><input type="text" name="ministry_id" class="form-control" placeholder="Enter ministry_id value" value=""></td>
+                                            <td>int</td>
+                                            <td>Optional Parameter.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>search</td>
+                                            <td><input type="text" name="search" class="form-control" placeholder="Enter search value" value=""></td>
+                                            <td>text</td>
+                                            <td>Optional Parameter.</td>
+                                        </tr>
+                                    </form>
                                 </tbody>
                             </table>
-                            <button type="button" class="custom-btn-primary" onclick="callApi('https://dpgdata.doptor.gov.bd/api/v1/ministries/', '11', {})"> Try it now!</button>
+                            <button type="button" class="custom-btn-primary" onclick="callApi('<?= APP_URL ?>api/v1/ministries/', '11')"> Try it now!</button>
                             <div id="response11">
 
                             </div>
@@ -132,15 +134,17 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>ministry_id</td>
-                                    <td></td>
-                                    <td>int</td>
-                                    <td>Mandatory Parameter.</td>
-                                </tr>
+                                    <form action="" id="form12" enctype="multipart/form-data">
+                                        <tr>
+                                            <td>ministry_id</td>
+                                            <td><input type="text" name="ministry_id" class="form-control" placeholder="Enter ministry_id value" value="" required></td>
+                                            <td>int</td>
+                                            <td>Mandatory Parameter.</td>
+                                        </tr>
+                                    </form>
                                 </tbody>
                             </table>
-                            <button type="button" class="custom-btn-primary" onclick="callApi('https://dpgdata.doptor.gov.bd/api/v1/ministry/layers/', '12', {ministry_id:1})"> Try it now!</button>
+                            <button type="button" class="custom-btn-primary" onclick="callApi('<?= APP_URL ?>api/v1/ministry/layers/', '12')"> Try it now!</button>
                             <div id="response12">
 
                             </div>
@@ -197,21 +201,23 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>ministry_id</td>
-                                    <td>5</td>
-                                    <td>int</td>
-                                    <td>Mandatory Parameter.</td>
-                                </tr>
-                                <tr>
-                                    <td>layer_id</td>
-                                    <td>22</td>
-                                    <td>int</td>
-                                    <td>Mandatory Parameter.</td>
-                                </tr>
+                                    <form action="" id="form13" enctype="multipart/form-data">
+                                        <tr>
+                                            <td>ministry_id</td>
+                                            <td><input type="text" name="ministry_id" class="form-control" placeholder="Enter ministry_id value" value="5" required></td>
+                                            <td>int</td>
+                                            <td>Mandatory Parameter.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>layer_id</td>
+                                            <td><input type="text" name="layer_id" class="form-control" placeholder="Enter layer_id value" value="22" required></td>
+                                            <td>int</td>
+                                            <td>Mandatory Parameter.</td>
+                                        </tr>
+                                    </form>
                                 </tbody>
                             </table>
-                            <button type="button" class="custom-btn-primary" onclick="callApi('https://dpgdata.doptor.gov.bd/api/v1/ministry/layer/offices/', '13', {ministry_id:5, layer_id:22})"> Try it now!</button>
+                            <button type="button" class="custom-btn-primary" onclick="callApi('<?= APP_URL ?>api/v1/ministry/layer/offices/', '13')"> Try it now!</button>
                             <div id="response13">
 
                             </div>
@@ -268,39 +274,41 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>office_ids</td>
-                                    <td>28,29</td>
-                                    <td>int</td>
-                                    <td>Optional Parameter for Search. Can be passed as comma seperated value.</td>
-                                </tr>
-                                <tr>
-                                    <td>search</td>
-                                    <td>Commissionar</td>
-                                    <td>text</td>
-                                    <td>Optional Parameter for Search.</td>
-                                </tr>
-                                <tr>
-                                    <td>layer_levels</td>
-                                    <td>2</td>
-                                    <td>int</td>
-                                    <td>Optional Parameter for Search.</td>
-                                </tr>
-                                <tr>
-                                    <td>page</td>
-                                    <td>1</td>
-                                    <td>int</td>
-                                    <td>Page Number for Pagination.</td>
-                                </tr>
-                                <tr>
-                                    <td>per_page</td>
-                                    <td>250</td>
-                                    <td>int</td>
-                                    <td>Data Count for pagination.</td>
-                                </tr>
+                                    <form action="" id="form14" enctype="multipart/form-data">
+                                        <tr>
+                                            <td>office_ids</td>
+                                            <td><input type="text" name="office_ids" class="form-control" placeholder="Enter office_ids value" value="28,29"></td>
+                                            <td>int</td>
+                                            <td>Optional Parameter for Search. Can be passed as comma seperated value.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>search</td>
+                                            <td><input type="text" name="search" class="form-control" placeholder="Enter search value" value="Commissionar"></td>
+                                            <td>text</td>
+                                            <td>Optional Parameter for Search.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>layer_levels</td>
+                                            <td><input type="text" name="layer_levels" class="form-control" placeholder="Enter layer_levels value" value="2"></td>
+                                            <td>int</td>
+                                            <td>Optional Parameter for Search.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>page</td>
+                                            <td><input type="text" name="page" class="form-control" placeholder="Enter page value" value="1"></td>
+                                            <td>int</td>
+                                            <td>Page Number for Pagination.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>per_page</td>
+                                            <td><input type="text" name="per_page" class="form-control" placeholder="Enter per_page value" value="250"></td>
+                                            <td>int</td>
+                                            <td>Data Count for pagination.</td>
+                                        </tr>
+                                    </form>
                                 </tbody>
                             </table>
-                            <button type="button" class="custom-btn-primary" onclick="callApi('https://dpgdata.doptor.gov.bd/api/v1/offices', '14', {})"> Try it now!</button>
+                            <button type="button" class="custom-btn-primary" onclick="callApi('<?= APP_URL ?>api/v1/offices', '14')"> Try it now!</button>
                             <div id="response14">
 
                             </div>
@@ -357,21 +365,23 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>office_ids</td>
-                                    <td>65,58</td>
-                                    <td>text</td>
-                                    <td>Mandatory Parameter. Can be passed as comma seperated value.</td>
-                                </tr>
-                                <tr>
-                                    <td>unit_ids</td>
-                                    <td>79349</td>
-                                    <td>text</td>
-                                    <td>Optional Parameter for Search. Can be passed as comma seperated value.</td>
-                                </tr>
+                                    <form action="" id="form15" enctype="multipart/form-data">
+                                        <tr>
+                                            <td>office_ids</td>
+                                            <td><input type="text" name="office_ids" class="form-control" placeholder="Enter office_ids value" value="65,58" required></td>
+                                            <td>text</td>
+                                            <td>Mandatory Parameter. Can be passed as comma seperated value.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>unit_ids</td>
+                                            <td><input type="text" name="unit_ids" class="form-control" placeholder="Enter unit_ids value" value="79349"></td>
+                                            <td>text</td>
+                                            <td>Optional Parameter for Search. Can be passed as comma seperated value.</td>
+                                        </tr>
+                                    </form>
                                 </tbody>
                             </table>
-                            <button type="button" class="custom-btn-primary" onclick="callApi('https://dpgdata.doptor.gov.bd/api/v1/office/units/', '15', {office_ids:'65,58'})"> Try it now!</button>
+                            <button type="button" class="custom-btn-primary" onclick="callApi('<?= APP_URL ?>api/v1/office/units/', '15')"> Try it now!</button>
                             <div id="response15">
 
                             </div>
@@ -428,15 +438,17 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>unit_ids</td>
-                                    <td>299,300</td>
-                                    <td>text</td>
-                                    <td>Mandatory Parameter. Can be passed as comma seperated value.</td>
-                                </tr>
+                                    <form action="" id="form16" enctype="multipart/form-data">
+                                        <tr>
+                                            <td>unit_ids</td>
+                                            <td><input type="text" name="unit_ids" class="form-control" placeholder="Enter unit_ids value" value="299,300" required></td>
+                                            <td>text</td>
+                                            <td>Mandatory Parameter. Can be passed as comma seperated value.</td>
+                                        </tr>
+                                    </form>
                                 </tbody>
                             </table>
-                            <button type="button" class="custom-btn-primary" onclick="callApi('https://dpgdata.doptor.gov.bd/api/v1/office/unit/designations/', '16', {unit_ids:'299,300'})"> Try it now!</button>
+                            <button type="button" class="custom-btn-primary" onclick="callApi('<?= APP_URL ?>api/v1/office/unit/designations/', '16')"> Try it now!</button>
                             <div id="response16">
 
                             </div>
@@ -493,15 +505,17 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>office_id</td>
-                                    <td>405</td>
-                                    <td>int</td>
-                                    <td>Mandatory Parameter.</td>
-                                </tr>
+                                    <form action="" id="form17" enctype="multipart/form-data">
+                                        <tr>
+                                            <td>office_id</td>
+                                            <td><input type="text" name="office_id" class="form-control" placeholder="Enter office_id value" value="405" required></td>
+                                            <td>int</td>
+                                            <td>Mandatory Parameter.</td>
+                                        </tr>
+                                    </form>
                                 </tbody>
                             </table>
-                            <button type="button" class="custom-btn-primary" onclick="callApi('https://dpgdata.doptor.gov.bd/api/v1/office/unit-designation-employee-map', '17', {office_id:405})"> Try it now!</button>
+                            <button type="button" class="custom-btn-primary" onclick="callApi('<?= APP_URL ?>api/v1/office/unit-designation-employee-map', '17')"> Try it now!</button>
                             <div id="response17">
 
                             </div>
@@ -558,15 +572,17 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>office_id</td>
-                                    <td>2958</td>
-                                    <td>int</td>
-                                    <td>Mandatory Parameter.</td>
-                                </tr>
+                                    <form action="" id="form18" enctype="multipart/form-data">
+                                        <tr>
+                                            <td>office_id</td>
+                                            <td><input type="text" name="office_id" class="form-control" placeholder="Enter office_id value" value="2958" required></td>
+                                            <td>int</td>
+                                            <td>Mandatory Parameter.</td>
+                                        </tr>
+                                    </form>
                                 </tbody>
                             </table>
-                            <button type="button" class="custom-btn-primary" onclick="callApi('https://dpgdata.doptor.gov.bd/api/v1/get-employee-list-by-office', '18', {office_id:2958})"> Try it now!</button>
+                            <button type="button" class="custom-btn-primary" onclick="callApi('<?= APP_URL ?>api/v1/get-employee-list-by-office', '18')"> Try it now!</button>
                             <div id="response18">
 
                             </div>
@@ -622,14 +638,16 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>office_id</td>
-                                    <td>65</td>
-                                    <td>text</td>
-                                </tr>
+                                    <form action="" id="form19" enctype="multipart/form-data">
+                                        <tr>
+                                            <td>office_id</td>
+                                            <td><input type="text" name="office_id" class="form-control" placeholder="Enter office_id value" value="65"></td>
+                                            <td>text</td>
+                                        </tr>
+                                    </form>
                                 </tbody>
                             </table>
-                            <button type="button" class="custom-btn-primary" onclick="callApi('https://dpgdata.doptor.gov.bd/api/v1/office/unit-designation-map', '19', {office_id:65})"> Try it now!</button>
+                            <button type="button" class="custom-btn-primary" onclick="callApi('<?= APP_URL ?>api/v1/office/unit-designation-map', '19')"> Try it now!</button>
                             <div id="response19">
 
                             </div>
@@ -684,14 +702,16 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>unit_id</td>
-                                    <td>29372</td>
-                                    <td>text</td>
-                                </tr>
+                                    <form action="" id="form20" enctype="multipart/form-data">
+                                        <tr>
+                                            <td>unit_id</td>
+                                            <td><input type="text" name="unit_id" class="form-control" placeholder="Enter unit_id value" value="29372"></td>
+                                            <td>text</td>
+                                        </tr>
+                                    </form>
                                 </tbody>
                             </table>
-                            <button type="button" class="custom-btn-primary" onclick="callApi('https://dpgdata.doptor.gov.bd/api/v1/office/unit-head-and-admin', '20', {unit_id:29372})"> Try it now!</button>
+                            <button type="button" class="custom-btn-primary" onclick="callApi('<?= APP_URL ?>api/v1/office/unit-head-and-admin', '20')"> Try it now!</button>
                             <div id="response20">
 
                             </div>
@@ -746,14 +766,16 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>office_id</td>
-                                    <td>65</td>
-                                    <td>text</td>
-                                </tr>
+                                    <form action="" id="form21" enctype="multipart/form-data">
+                                        <tr>
+                                            <td>office_id</td>
+                                            <td><input type="text" name="office_id" class="form-control" placeholder="Enter office_id value" value="65"></td>
+                                            <td>text</td>
+                                        </tr>
+                                    </form>
                                 </tbody>
                             </table>
-                            <button type="button" class="custom-btn-primary" onclick="callApi('https://dpgdata.doptor.gov.bd/api/v1/office/head-and-admin', '21', {office_id:65})"> Try it now!</button>
+                            <button type="button" class="custom-btn-primary" onclick="callApi('<?= APP_URL ?>api/v1/office/head-and-admin', '21')"> Try it now!</button>
                             <div id="response21">
 
                             </div>
@@ -808,14 +830,16 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>office_id</td>
-                                    <td>53</td>
-                                    <td>text</td>
-                                </tr>
+                                    <form action="" id="form22" enctype="multipart/form-data">
+                                        <tr>
+                                            <td>office_id</td>
+                                            <td><input type="text" name="office_id" class="form-control" placeholder="Enter office_id value" value="53"></td>
+                                            <td>text</td>
+                                        </tr>
+                                    </form>
                                 </tbody>
                             </table>
-                            <button type="button" class="custom-btn-primary" onclick="callApi('https://dpgdata.doptor.gov.bd/api/v1/office/front-desk', '22', {office_id:53})"> Try it now!</button>
+                            <button type="button" class="custom-btn-primary" onclick="callApi('<?= APP_URL ?>api/v1/office/front-desk', '22')"> Try it now!</button>
                             <div id="response22">
 
                             </div>
