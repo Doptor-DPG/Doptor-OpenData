@@ -73,6 +73,7 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/faq', ['controller' => 'Home', 'action' => 'faq']);
     $routes->connect('/terms_of_service', ['controller' => 'Home', 'action' => 'termsofservice']);
     $routes->connect('/privacy_policy', ['controller' => 'Home', 'action' => 'privacypolicy']);
+    $routes->connect('/license', ['controller' => 'Home', 'action' => 'license']);
     $routes->connect('/documentation/v1', ['controller' => 'Documentation', 'action' => 'index']);
 
     /**
@@ -163,7 +164,6 @@ Router::scope('/api', function ($routes) {
 });
 
 Router::scope('/api', function ($routes) {
-
 });
 Router::scope('/', function ($routes) {
 });

@@ -65,6 +65,11 @@ class HomeController extends AppController
         return;
     }
 
+    public function license()
+    {
+        return;
+    }
+
 
     public function callApi()
     {

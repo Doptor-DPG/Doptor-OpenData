@@ -98,6 +98,10 @@
                     Legal Compliance: The platform ensures compliance with applicable laws and regulations regarding content moderation and illegal activities. It cooperates with law enforcement authorities when necessary and takes appropriate actions to handle illegal content.
                     It's important to note that the specific implementation and details of the Privacy Policy and content handling mechanisms may vary based on the actual development and deployment of the Doptor Organogram Data platform.
                 </p>
+
+                <br><br>
+                
+                <p class="text-reset"><a href="<?= $this->Url->build(['controller' => 'Home', 'action' => 'license']) ?>">This project is licensed under MIT license.</a></p>
             </div>
         </div>
     </div>
