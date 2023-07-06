@@ -2,11 +2,7 @@
 
 This guide provides step-by-step instructions for installing the PHP application. Please follow the instructions below to get started.
 
-## Authors
 
-- [@Mahmud S.](https://www.linkedin.com/in/mahmud-s-raju)
-- [@Abdullah M. Tahir]()
-- [@Tappware Solutions Limited]()
 
 ## Prerequisites
 
