@@ -30,11 +30,11 @@
                     <div class="about-right-content">
                         <div class="section-heading">
                         <h4>Doptor <em>FAQ</em></h4>
-                        <h6>Frequently Asked Questions About Doptor Organogram Data Platform</h6>
+                        <h6>Frequently Asked Questions About Doptor Open Data Platform</h6>
                         <div class="line-dec"></div>
                         </div>
                         <p class="text-reset">
-                        The Doptor Organogram Data platform is a framework that acts as a 
+                        The Doptor Open Data platform is a framework that acts as a 
                         mediator for various e-governance solutions. It provides services related 
                         to geo data, government officer information, 
                         and office data sharing, allowing different e-governance solutions to access 
@@ -57,7 +57,7 @@
                 <div class="accordion-item">
                     <h6 class="accordion-header" id="qh1">
                     <button class="accordion-button collapsed bg-gradient-lighter border rounded-3 shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#qc1" aria-expanded="false" aria-controls="qc1">
-                        What types of services does the Doptor Organogram Data platform offer?
+                        What types of services does the Doptor Open Data platform offer?
                     </button>
                     </h6>
                     <div id="qc1" class="accordion-collapse collapse" aria-labelledby="qh1" data-bs-parent="#accordionFlushExample">
@@ -89,7 +89,7 @@
                 <div class="accordion-item">
                     <h6 class="accordion-header" id="qh2">
                     <button class="accordion-button collapsed bg-gradient-lighter border rounded-3 shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#qc2" aria-expanded="false" aria-controls="qc2">
-                        How does the Doptor Organogram Data platform contribute to sustainable development?
+                        How does the Doptor Open Data platform contribute to sustainable development?
                     </button>
                     </h6>
                     <div id="qc2" class="accordion-collapse collapse" aria-labelledby="qh2" data-bs-parent="#accordionFlushExample">
@@ -114,7 +114,7 @@
                 <div class="accordion-item">
                     <h6 class="accordion-header" id="qh3">
                     <button class="accordion-button collapsed bg-gradient-lighter border rounded-3 shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#qc3" aria-expanded="false" aria-controls="qc3">
-                        How can the Doptor Organogram Data platform benefit cities and communities? 
+                        How can the Doptor Open Data platform benefit cities and communities? 
                     </button>
                     </h6>
                     <div id="qc3" class="accordion-collapse collapse" aria-labelledby="qh3" data-bs-parent="#accordionFlushExample">
@@ -136,7 +136,7 @@
                 <div class="accordion-item">
                     <h6 class="accordion-header" id="qh4">
                     <button class="accordion-button collapsed bg-gradient-lighter border rounded-3 shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#qc4" aria-expanded="false" aria-controls="qc4">
-                        How does the Doptor Organogram Data platform ensure data accuracy and reliability?
+                        How does the Doptor Open Data platform ensure data accuracy and reliability?
                     </button>
                     </h6>
                     <div id="qc4" class="accordion-collapse collapse" aria-labelledby="qh4" data-bs-parent="#accordionFlushExample">
@@ -158,7 +158,7 @@
                 <div class="accordion-item">
                     <h6 class="accordion-header" id="qh5">
                     <button class="accordion-button collapsed bg-gradient-lighter border rounded-3 shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#qc5" aria-expanded="false" aria-controls="qc5">
-                    Can external applications access and utilize the services of the Doptor Organogram Data platform?
+                    Can external applications access and utilize the services of the Doptor Open Data platform?
                     </button>
                     </h6>
                     <div id="qc5" class="accordion-collapse collapse" aria-labelledby="qh5" data-bs-parent="#accordionFlushExample">
@@ -180,7 +180,7 @@
                 <div class="accordion-item">
                     <h6 class="accordion-header" id="qh6">
                     <button class="accordion-button collapsed bg-gradient-lighter border rounded-3 shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#qc6" aria-expanded="false" aria-controls="qc6">
-                        Is the Doptor Organogram Data platform specific to Bangladesh?                    
+                        Is the Doptor Open Data platform specific to Bangladesh?                    
                     </button>
                     </h6>
                     <div id="qc6" class="accordion-collapse collapse" aria-labelledby="qh6" data-bs-parent="#accordionFlushExample">

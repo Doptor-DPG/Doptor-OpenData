@@ -6,8 +6,7 @@
           <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
             <div class="row">
               <div class="col-lg-12">
-                <h6>Doptor Platform</h6>
-                <h2>Core of E-governance</h2>
+                <h6>Doptor Open Data Platform</h6>
                 <p class="text-reset">
                   Doptor Open Data provide a wide range of data related to Bangladesh's geography and administrative information. This data is accessible to not only Bangladeshi citizens but also individuals and organizations both within and outside Bangladesh, including development partners and other interested parties.
                   By using this data anyone from Bangladesh all outside Bangladesh and development partners and other interested parties can get benefited they can get an insight about Bangladesh. They can get data from this platform such as Bangladesh GEO location, divisions, districts, upazilas, post offices, municipalities, city corporations, and thanas data within the paltform. Furthermore, government employee information, including employee names in both Bengali and English. Also, Doptor Open Data Platform facilitates the sharing of office-related data. The office data includes information such as office names in both Bengali and English, office IDs, ministry names, office layers, office unit names, officer unit organograms, and office designations.
