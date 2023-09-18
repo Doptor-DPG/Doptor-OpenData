@@ -1,43 +1,40 @@
-
-    <div class="container">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
       <div class="row">
-        <div class="col-lg-12">
-          <div class="row">
-            <div class="col-lg-6 align-self-center">
-              <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
-                <div class="row">
-                  <div class="col-lg-12">
-                    <h6>Doptor Platform</h6>
-                    <h2>Core of E-governance</h2>
-                    <p class="text-reset">
-                        Doptor aims to bring all the eServices own by Government of Bangladesh in a single platform.
-                        Doptor works as a middleware to serve all the government officials and offices with authentication and most secured way. 
-                        The concept of one id for one government official to access all the eService is implemented by Doptor Platform.
-                        Doptor Platform has the integration process to share the core data with other eServices.
-                    </p>
-                  </div>
-                  <div class="col-lg-12">
-                    <div class="border-first-button scroll-to-section">
-                      <a href="<?= $this->Url->build(['controller'=>'Documentation', 'action'=>'index']) ?>">Get Started</a>
-                    </div>
-                  </div>
+        <div class="col-lg-6 align-self-center">
+          <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+            <div class="row">
+              <div class="col-lg-12">
+                <h6>Doptor Platform</h6>
+                <h2>Core of E-governance</h2>
+                <p class="text-reset">
+                  Doptor Open Data provide a wide range of data related to Bangladesh's geography and administrative information. This data is accessible to not only Bangladeshi citizens but also individuals and organizations both within and outside Bangladesh, including development partners and other interested parties.
+                  By using this data anyone from Bangladesh all outside Bangladesh and development partners and other interested parties can get benefited they can get an insight about Bangladesh. They can get data from this platform such as Bangladesh GEO location, divisions, districts, upazilas, post offices, municipalities, city corporations, and thanas data within the paltform. Furthermore, government employee information, including employee names in both Bengali and English. Also, Doptor Open Data Platform facilitates the sharing of office-related data. The office data includes information such as office names in both Bengali and English, office IDs, ministry names, office layers, office unit names, officer unit organograms, and office designations.
+                </p>
+              </div>
+              <div class="col-lg-12">
+                <div class="border-first-button scroll-to-section">
+                  <a href="<?= $this->Url->build(['controller' => 'Documentation', 'action' => 'index']) ?>">Get Started</a>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="right-image wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-                <img src="img/slide-img1.jpg" alt="">
-              </div>
-            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="right-image wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+            <img src="img/slide-img1.jpg" alt="">
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
+</div>
 
-  
 
-  <!-- <div id="services" class="services section">
+
+<!-- <div id="services" class="services section">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -335,5 +332,3 @@
       </div>
     </div>
   </div> -->
-   
-
