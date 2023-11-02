@@ -173,30 +173,6 @@
                 </div>
             </div>
             <br>
-
-
-            
-            <div class="accordion accordion-flush wow fadeInUp" id="accordionFlushExample">
-                <div class="accordion-item">
-                    <h6 class="accordion-header" id="qh6">
-                    <button class="accordion-button collapsed bg-gradient-lighter border rounded-3 shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#qc6" aria-expanded="false" aria-controls="qc6">
-                        Is the Doptor Open Data platform specific to Bangladesh?                    
-                    </button>
-                    </h6>
-                    <div id="qc6" class="accordion-collapse collapse" aria-labelledby="qh6" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body border border-info">
-                            <p class="text-reset">
-                                Yes, based on the provided information, the platform is focused on providing services 
-                                related to Bangladesh's government offices and locations. It includes features such as divisions, 
-                                districts, upazilas, post offices, municipalities, 
-                                city corporations, and thanas specific to the country's administrative structure.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br>
-
             </div>
         </div>
     </div>
