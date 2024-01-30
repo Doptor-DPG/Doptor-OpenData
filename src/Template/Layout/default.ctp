@@ -104,7 +104,7 @@ Product Name: Doptor Open Data DPG
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="<?= $this->request->webroot ?>" class="logo">
-                            <img src="<?= $this->request->webroot ?>img/doptor.png" alt="" style="width: 65% !important;">
+                            <img src="<?= $this->request->webroot ?>img/doptor.png" alt="" style="width: 100% !important;">
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
