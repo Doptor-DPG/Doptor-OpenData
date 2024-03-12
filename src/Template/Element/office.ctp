@@ -658,7 +658,7 @@
             <br>
 
 
-            <div class="accordion accordion-flush wow fadeInUp" id="accordionFlushExample">
+            <div class="accordion accordion-flush wow fadeInUp d-none" id="accordionFlushExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-heading20">
                         <button class="accordion-button collapsed bg-gradient-light border rounded-3 shadow-sm"
@@ -722,7 +722,7 @@
             <br>
 
 
-            <div class="accordion accordion-flush wow fadeInUp" id="accordionFlushExample">
+            <div class="accordion accordion-flush wow fadeInUp d-none" id="accordionFlushExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-heading21">
                         <button class="accordion-button collapsed bg-gradient-light border rounded-3 shadow-sm"
@@ -786,7 +786,7 @@
             <br>
 
 
-            <div class="accordion accordion-flush wow fadeInUp" id="accordionFlushExample">
+            <div class="accordion accordion-flush wow fadeInUp d-none" id="accordionFlushExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-heading22">
                         <button class="accordion-button collapsed bg-gradient-light border rounded-3 shadow-sm"
